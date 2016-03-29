@@ -2,16 +2,16 @@
 # AndroidSpinKit
 
  
-##### Android 加载动画(参照[SpinKit](https://github.com/tobiasahlin/SpinKit)写了个android版本)
-## 效果 
+##### Android Loading animation (see [SpinKit] (https://github.com/tobiasahlin/SpinKit) wrote a android version)
+## effect
 
 <img src="https://raw.githubusercontent.com/ybq/AndroidSpinKit/master/art/screen.gif" width="240px" height="426px"/>
  
 <img src="https://raw.githubusercontent.com/ybq/AndroidSpinKit/master/art/screen2.gif" width="200px" height="200px"/>
 
-## Gradle 依赖
+## Gradle rely
 
-  1.在项目根目录的build.gradle添加
+  1. Add the project root directory build.gradle
 
 ```gradle
 allprojects {
@@ -22,7 +22,7 @@ allprojects {
 	}
 ```
 
-  2.添加依赖
+  2.Add Dependency
 
 ``` gradle
 dependencies {
@@ -31,7 +31,7 @@ dependencies {
 ```
 
 
-## 使用
+## use
 
 ```xml
 <com.github.ybq.android.spinkit.SpinKitView 
@@ -59,9 +59,9 @@ DoubleBounce doubleBounce = new DoubleBounce();
 progressBar.setIndeterminateDrawable(doubleBounce);
 ```
 
-###样式:
+###style:
 
-样式 | 预览
+Styles | Preview
 ------------     |   -------------
 RotatingPlane    | <img src='https://raw.githubusercontent.com/ybq/AndroidSpinKit/master/art/RotatingPlane.gif' alt='RotatingPlane' width="90px" height="90px"/>
 DoubleBounce     | <img src='https://raw.githubusercontent.com/ybq/AndroidSpinKit/master/art/DoubleBounce.gif' alt='DoubleBounce' width="90px" height="90px"/>
@@ -81,7 +81,7 @@ FoldingCube      | <img src='https://raw.githubusercontent.com/ybq/AndroidSpinKi
  
  
  
-##感谢 
+##thank
 - [SpinKit](https://github.com/tobiasahlin/SpinKit).
 
 
